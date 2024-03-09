@@ -1,0 +1,31 @@
+
+public class demo1 {
+
+	public static void main(String[] args) {
+		
+//		String browsername="";
+//		if(browsername=="chrome") {
+//			System.out.println("chromeBrowser should be launched");
+//		}else if(browsername=="opera") {
+//			System.out.println("chromeBrowser should be launched");
+//		}
+		
+		int weedaynumber=5;
+		  switch(weedaynumber) {
+		  case 1: System.out.println("monday");
+		           break;
+		  case 2: System.out.println("tuesday"); 
+		          break 
+		           
+		  
+		  
+		  }
+		  
+		  
+		  
+		
+		
+	}
+
+}
+ 

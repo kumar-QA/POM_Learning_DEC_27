@@ -1,0 +1,40 @@
+
+public class Employee {
+
+	int Employe_id;
+	String Emp_Name;
+	int Empsal;
+	
+	
+	
+	Employee(int Employe_id ,String Emp_Name,int Empsal){
+		this.Employe_id=Employe_id;
+		this.Emp_Name=Emp_Name;
+		this.Empsal=Empsal;
+	}
+	void add(int a) {
+		System.out.println(a);
+	}
+
+	void detailsOfEmployee() {
+		System.out.println(Employe_id + " " + Emp_Name + " " + Empsal);
+	}
+
+	public static void main(String[] args) {
+
+		Employee e1 = new Employee(001,"kumar",10000);
+//		e1.Emp_Name = "kumar";
+//		e1.Empsal = 20000;
+//		e1.Employe_id = 001;
+		e1.detailsOfEmployee();
+//		e1.add(500);
+
+		Employee e2 = new Employee(002,"abc",40000);
+//		e2.Emp_Name = "murali";
+//		e2.Empsal = 40000;
+//		e2.Employe_id = 003;
+//		e2.detailsOfEmployee();
+		
+
+	}
+}

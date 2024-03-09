@@ -1,0 +1,23 @@
+package AutomationTesting;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class MeThodsExp {
+
+	public static void main(String[] args) {
+
+
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("https://onlineitvidhya.com/");
+		
+		String url=driver.getCurrentUrl();
+		System.out.println(url);
+		
+		
+		
+		
+		
+		
+	}
+
+}

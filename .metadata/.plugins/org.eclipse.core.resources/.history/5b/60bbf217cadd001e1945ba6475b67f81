@@ -1,0 +1,25 @@
+
+public class Employee{
+
+   int Employe_id;
+   String Emp_Name;
+   int Empsal;
+
+
+  void detailsOfEmployee(){
+     System.out.println(Employe_id+" "+Emp_Name+" "+Empsal);
+  }
+public static void main(String[] args) {
+
+	   Employee e1=new Employee();
+	  e1.Emp_Name="kumar";
+	  e1.Empsal=20000;
+	  e1.Employe_id=001;
+	  e1.detailsOfEmployee();
+
+	Employee e2=new Employee();
+
+	 e2.detailsOfEmployee();
+
+	}	
+}

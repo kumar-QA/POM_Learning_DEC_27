@@ -1,0 +1,10 @@
+
+public class conditionstatment {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Eligible for voteing");
+		System.out.println("not Eligible for voteing");
+	}
+
+}
